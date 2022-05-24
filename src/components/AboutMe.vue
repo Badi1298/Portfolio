@@ -12,9 +12,6 @@
       <ul>
         <li><router-link class="orange" to="/resume">Resume</router-link></li>
         <li><router-link class="red" to="/projects">Projects</router-link></li>
-        <li>
-          <router-link class="turqoise" to="/contact">Contact</router-link>
-        </li>
       </ul>
     </div>
   </div>
@@ -62,6 +59,9 @@ p {
 
 ul {
   display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 4rem;
 }
 
@@ -73,7 +73,7 @@ ul li a {
   font-size: 1.3rem;
   font-weight: 700;
   padding: 3.7rem 2.2rem;
-  margin: 0 1rem;
+  margin: 0 2rem;
   border: 1px solid #fff;
   border-radius: 50%;
   color: #fff;
@@ -96,5 +96,20 @@ a:hover {
   background-color: #fff;
   color: #333;
   border: 1px solid #000;
+}
+
+@media (max-width: 1100px) {
+  .header-container {
+    grid-template-columns: 1fr;
+  }
+
+  .header-container .description {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-container img {
+    display: none;
+  }
 }
 </style>

@@ -3,6 +3,36 @@
     <h1>Projects</h1>
     <div class="container-projects">
       <div class="project">
+        <h3>Movies & TV Shows</h3>
+        <p>
+          Application which uses the TMDB API to fetch movies and TV shows,
+          nicely display them in cards with title and rating, with pagination,
+          allowing users to jump to a certain page, hover over them to see a
+          quick overview, click on any of them to display details about them.<br /><br />
+          Project built with Vue.js (HTML, CSS, JavaScript)
+        </p>
+      </div>
+      <img src="../img/movies-tvshows.png" alt="Project1" />
+    </div>
+
+    <div class="container-projects">
+      <div class="project">
+        <h3>But-Rent-Sell</h3>
+        <p>
+          A complex application, allowing users to buy, rent or sell properties.
+          All the properties can be clicked to display details about them. There
+          is pagination between all the properties details, buy separated from
+          rent.<br /><br />
+          There's also a menu which allows for fast travel between pages.
+          <br /><br />
+          Project built with Vue.js (HTML, CSS, JavaScript)
+        </p>
+      </div>
+      <img src="../img/buy-rent-sell.png" alt="Project1" />
+    </div>
+
+    <div class="container-projects">
+      <div class="project">
         <h3>Coaching App</h3>
         <p>
           A complex application, allowing users to signup, login, register as
@@ -17,7 +47,7 @@
           As a backend database I used Firebase (Google provided backend
           database). <br />
           <br />
-          Project built with Vue.js
+          Project built with Vue.js (HTML, CSS, JavaScript)
         </p>
       </div>
       <img src="../img/coaching-app.png" alt="Project1" />
@@ -26,10 +56,12 @@
       <div class="project">
         <h3>Remember Me</h3>
         <p>
-          Small application designed for adding notes/reminders. Each of them
-          contains a title, description and a link. <br />
+          CRUD application, allowing users to add, delete, view resources, which
+          are then kept in the PostgreSQL database. Each resource consist of a
+          title, description and link. <br />
           <br />
-          Project built with Vue.js
+          Project built with Vue.js (HTML, CSS, JavaScript), Express.js,
+          Sequalize, PostgreSQL
         </p>
       </div>
       <img src="../img/remember-me.png" alt="Project1" />
@@ -62,6 +94,7 @@
       </div>
       <img src="../img/forkify.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>Mapty</h3>
@@ -83,6 +116,7 @@
       </div>
       <img src="../img/mapty.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>Pig Game</h3>
@@ -102,6 +136,7 @@
       </div>
       <img src="../img/pig-game.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>Guess My Number</h3>
@@ -119,6 +154,7 @@
       </div>
       <img src="../img/guess-my-number.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>50 Projects</h3>
@@ -131,6 +167,7 @@
       </div>
       <img src="../img/project3.jpg" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>Portfolio Website</h3>
@@ -144,6 +181,7 @@
       </div>
       <img src="../img/portfolio.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>NewsGrid</h3>
@@ -156,6 +194,7 @@
       </div>
       <img src="../img/news-grid.png" alt="Project1" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>EdgeLedger</h3>
@@ -173,7 +212,7 @@
 
 <style scoped>
 section {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 2rem auto;
 }
 
@@ -191,6 +230,7 @@ h3 {
 img {
   width: 550px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .container-projects {
@@ -202,5 +242,26 @@ img {
 
 .project {
   padding-right: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .container-projects {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .container-projects h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .container-projects img {
+    width: 100%;
+  }
+
+  .container-projects p {
+    margin-bottom: 1rem;
+  }
 }
 </style>

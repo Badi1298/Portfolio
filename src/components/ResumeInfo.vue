@@ -111,4 +111,31 @@ section h1 {
   background: #777;
   padding: 1px;
 }
+
+@media (max-width: 850px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .container h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .container .experience {
+    grid-template-columns: 1fr;
+    grid-gap: 0rem;
+  }
+
+  .container .experience .time-span {
+    margin-top: 2rem;
+  }
+
+  .container-expertise {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+}
 </style>

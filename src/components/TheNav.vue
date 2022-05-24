@@ -26,13 +26,6 @@
           >Projects</router-link
         >
       </li>
-      <li>
-        <router-link
-          to="/contact"
-          :class="{ active: currentRoute === '/contact' }"
-          >Contact</router-link
-        >
-      </li>
     </ul>
   </nav>
 </template>
@@ -82,8 +75,7 @@ p {
 }
 
 ul li:nth-child(1),
-ul li:nth-child(2),
-ul li:nth-child(3) {
+ul li:nth-child(2) {
   border-right: 1px solid #333;
 }
 
@@ -97,5 +89,16 @@ ul li a:hover {
 
 .active {
   color: #deaa88;
+}
+
+@media (max-width: 750px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    margin-right: 0;
+    margin-left: 1.5rem;
+  }
 }
 </style>
