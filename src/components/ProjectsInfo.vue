@@ -6,13 +6,16 @@
         <h3>Movies & TV Shows</h3>
         <p>
           Application which uses the TMDB API to fetch movies and TV shows,
-          nicely display them in cards with title and rating, with pagination,
-          allowing users to jump to a certain page, hover over them to see a
-          quick overview, click on any of them to display details about them.<br /><br />
+          nicely display them in cards with title and rating. The user can hover
+          over the cards to see a quick overview, click on any of them to
+          display details about them.
+          <br /><br />
+          The app includes pagination, allowing users to jump to a certain page.
+          <br /><br />
           Project built with Vue.js (HTML, CSS, JavaScript)
         </p>
       </div>
-      <img src="../img/movies-tvshows.png" alt="Project1" />
+      <img src="../img/movies-tvshows.png" alt="Movies & TVShows" />
     </div>
 
     <div class="container-projects">
@@ -22,13 +25,14 @@
           A complex application, allowing users to buy, rent or sell properties.
           All the properties can be clicked to display details about them. There
           is pagination between all the properties details, buy separated from
-          rent.<br /><br />
+          rent.
+          <br /><br />
           There's also a menu which allows for fast travel between pages.
           <br /><br />
           Project built with Vue.js (HTML, CSS, JavaScript)
         </p>
       </div>
-      <img src="../img/buy-rent-sell.png" alt="Project1" />
+      <img src="../img/buy-rent-sell.png" alt="Buy-Rent-Sell" />
     </div>
 
     <div class="container-projects">
@@ -37,21 +41,22 @@
         <p>
           A complex application, allowing users to signup, login, register as
           coaches, contact other coaches that are already registered. Coaches
-          that are contacted can see who contacted them in the requests tab.<br />
-          <br />
+          that are contacted can see who contacted them in the requests tab.
+          <br /><br />
           Every coach, when registering gets to select a first and last name, a
           description, an hourly rate and areas of expertise - frontend,
           backend, carrer advisory. The users can then filter coaches based on
-          these areas. <br />
-          <br />
+          these areas.
+          <br /><br />
           As a backend database I used Firebase (Google provided backend
-          database). <br />
-          <br />
+          database).
+          <br /><br />
           Project built with Vue.js (HTML, CSS, JavaScript)
         </p>
       </div>
-      <img src="../img/coaching-app.png" alt="Project1" />
+      <img src="../img/coaching-app.png" alt="Coaching App" />
     </div>
+
     <div class="container-projects">
       <div class="project">
         <h3>Remember Me</h3>
@@ -61,10 +66,46 @@
           title, description and link. <br />
           <br />
           Project built with Vue.js (HTML, CSS, JavaScript), Express.js,
-          Sequalize, PostgreSQL
+          Sequalize, PostgreSQL.
         </p>
       </div>
-      <img src="../img/remember-me.png" alt="Project1" />
+      <img src="../img/remember-me.png" alt="Remember Me" />
+    </div>
+
+    <div class="container-projects">
+      <div class="project">
+        <h3>React Meetups</h3>
+        <p>
+          Fairly complex web application, which utilizes server side rendering,
+          thanks to Next.js. The app displays meetup places with and image,
+          title, address. Users can click on Show Details to learn more about
+          the meetup.
+          <br /><br />
+          The app also allows the addition of new meetups, where users have to
+          provide an image, title, address and description.
+          <br /><br />
+          All of the meetups are stored in the MongoDB database.
+          <br /><br />
+          Project built with React (HTML, CSS, JavaScript, React-Router),
+          Next.js, MongoDB.
+        </p>
+      </div>
+      <img src="../img/react-meetups.png" alt="React Meetups" />
+    </div>
+
+    <div class="container-projects">
+      <div class="project">
+        <h3>React Meals</h3>
+        <p>
+          Simple web application allowing users to add food items to the cart,
+          being able to specify the amount they want to add. After the items are
+          added to the cart, the user can open the cart, modify the amounts
+          again, if they wish to, and then order what they have chosen.
+          <br /><br />
+          Project built with React (HTML, CSS, JavaScript, Redux).
+        </p>
+      </div>
+      <img src="../img/react-meals.png" alt="React Meals" />
     </div>
 
     <div class="container-projects">
@@ -72,27 +113,27 @@
         <h3>Forkify</h3>
         <p>
           A complex app, which uses an API to get different recipes. There is a
-          search feature, which allows to search for key words or entire
+          search feature, which allows users to search for key words or entire
           recipes. The recipes are then displayed on the left, with pagination
           (12 per page).
           <br />
           <br />
           Once you click on a recipe, that recipe is displayed on the right,
-          with all the necessary ingredients, quantity of ingredients and
-          instruction on how to cook the recipe. Recipes can also be bookmarked.
-          Once bookmarked they appear in the bookmarks tab.
+          with all the necessary ingredients, quantities and instructions on how
+          to cook the recipe. Recipes can also be bookmarked. Once bookmarked,
+          they appear in the bookmarks tab.
           <br />
           <br />
-          There is also an add recipe feature, which allows you to add your own
-          recipes, which will then be automatically bookmarked and a small icon
-          will appear next to them, to indicate the they are in fact own
+          There is also an add recipe feature, which allows users to add their
+          own recipes, which will then be automatically bookmarked and a small
+          icon will appear next to them, to indicate the they are in fact own
           recipes.
           <br />
           <br />
           Project built with HTML, CSS and JavaScript.
         </p>
       </div>
-      <img src="../img/forkify.png" alt="Project1" />
+      <img src="../img/forkify.png" alt="Forkify" />
     </div>
 
     <div class="container-projects">
@@ -101,20 +142,20 @@
         <p>
           An application which uses the Leaflet open-source library to display a
           map of your current location, allowing you to add markers on the map
-          to mark the spots where you either went for a walk or went cycling.<br /><br />
+          to mark the spots where you either went for a walk or went cycling.
+          <br /><br />
           If you choose the walk option, you can input the amount of km you
           walked, the time it took, the cadence and the program will then
-          calculate the amount of miuntes it took to travel a km.<br />
-          <br />
+          calculate the amount of miuntes it took to travel a km.
+          <br /><br />
           If you choose the cycling option, you can input the amount of km you
-          travelled, the time it took, the elevation gain then the program will
-          calculate the speed you travelled at.
-          <br />
-          <br />
+          travelled, the time it took, the elevation gain and the program will
+          then calculate the speed you travelled at.
+          <br /><br />
           Project built with HTML, CSS and JavaScript.
         </p>
       </div>
-      <img src="../img/mapty.png" alt="Project1" />
+      <img src="../img/mapty.png" alt="Mapty" />
     </div>
 
     <div class="container-projects">
@@ -127,32 +168,31 @@
           which adds the current amount to their total amount. If they decide to
           hold, the other player gets to roll. The catch is that if you roll a
           1, all your current points get deleted, and your total amount remains
-          the same. <br />
+          the same.
+          <br /><br />
           The first person to get to 100 total points, wins.
-          <br />
-          <br />
+          <br /><br />
           Project built with HTML, CSS and JavaScript.
         </p>
       </div>
-      <img src="../img/pig-game.png" alt="Project1" />
+      <img src="../img/pig-game.png" alt="Pig Game" />
     </div>
 
     <div class="container-projects">
       <div class="project">
         <h3>Guess My Number</h3>
         <p>
-          An application which allows you to input a number between 0 and 20,
+          An application which allows users to input a number between 0 and 20,
           then the application checks if the number is the same as the randomly
           generated number, if it is lower or higher you get some feedback and
           your overall score goes down, if you guessed correctly the application
           displays the random number and your highscore is updated if necessary.
-          <br />Your score starts at 20, and gets lowered by 1 each time you
-          guess incorrectly. <br />
-          <br />
+          <br /><br />Your score starts at 20, and gets lowered by 1 each time
+          you guess incorrectly. <br /><br />
           Project built with HTML, CSS and JavaScript.
         </p>
       </div>
-      <img src="../img/guess-my-number.png" alt="Project1" />
+      <img src="../img/guess-my-number.png" alt="Guess My Number" />
     </div>
 
     <div class="container-projects">
@@ -165,21 +205,21 @@
           All the projects were built with HTML, CSS and JavaScript.
         </p>
       </div>
-      <img src="../img/project3.jpg" alt="Project1" />
+      <img src="../img/project3.jpg" alt="50 Projects" />
     </div>
 
     <div class="container-projects">
       <div class="project">
         <h3>Portfolio Website</h3>
         <p>
-          A complex landing page with a home, about, work, contact tab, which
-          uses CSS flexbox, CSS grid and the preprocessor scripting language
-          Sass <br />
+          A fairly complex landing page with a home, about, work and contact
+          page, which uses CSS flexbox, CSS grid and the preprocessor scripting
+          language Sass. <br />
           <br />
           Project built with HTML and CSS.
         </p>
       </div>
-      <img src="../img/portfolio.png" alt="Project1" />
+      <img src="../img/portfolio.png" alt="PortfolioWebsite" />
     </div>
 
     <div class="container-projects">
@@ -192,7 +232,7 @@
           Project built with HTML and CSS.
         </p>
       </div>
-      <img src="../img/news-grid.png" alt="Project1" />
+      <img src="../img/news-grid.png" alt="NewsGrid" />
     </div>
 
     <div class="container-projects">
@@ -205,7 +245,7 @@
           Project built with HTML and CSS.
         </p>
       </div>
-      <img src="../img/edge-ledger.png" alt="Project1" />
+      <img src="../img/edge-ledger.png" alt="EdgeLedger" />
     </div>
   </section>
 </template>
