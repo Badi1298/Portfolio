@@ -5,7 +5,31 @@
       <h2>Work Experience</h2>
       <div class="experience">
         <div class="time-span">
-          <p>2022-Now</p>
+          <p>Jul 2022-Now</p>
+        </div>
+        <div class="info">
+          <h3>Flowmatters</h3>
+          <p>
+            In the time spent at Flowmatters, I've done the following:
+            <br />
+            • Implemented user interfaces for web applications.
+            <br />
+            • Collaborated closely with cross-functional teams, including
+            designers and back-end developers.
+            <br />
+            • Ensured the usability, accessibility, and performance of web
+            applications across various browsers and devices.
+            <br />
+            • Participated in the migration of a website from version 2.0 to
+            3.0, working with new and improved technologies, gaining a lot of
+            experience in the process.
+            <br />
+            • Demonstrated adaptability and problem-solving skills throughout
+            the migration process.
+          </p>
+        </div>
+        <div class="time-span">
+          <p>Jan 2022-Jul 2022</p>
         </div>
         <div class="info">
           <h3>None</h3>
@@ -55,7 +79,18 @@
       <div class="expertise">
         <ul>
           <li>
-            <p>Python, PostgreSQL, HTML, CSS, JavaScript, Vue.js</p>
+            <p>
+              HTML, CSS, Tailwind CSS, JavaScript, Typescript
+              <br />
+              <br />
+              Vue.js, Nuxt.js, React.js, Next.js
+              <br />
+              <br />
+              Node.js, Express.js, GraphQL, MongoDB, PostgreSQL, Websockets
+              <br />
+              <br />
+              Weflow, Git, Bitbucket, Jira
+            </p>
           </li>
         </ul>
       </div>
@@ -77,14 +112,14 @@ section h1 {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1.5fr;
   padding: 0 1rem 4rem 1rem;
   margin-top: 4rem;
 }
 
 .experience {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 3fr;
   grid-gap: 3rem;
 }
 

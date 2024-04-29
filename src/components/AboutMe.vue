@@ -5,9 +5,19 @@
       <h1>Hello</h1>
       <h3>A Little About Me</h3>
       <p>
-        I am a 23 year old, self-taught programmer, from Sighișoara, Romania. I
-        started this journey a couple of months ago, after taking a gap year
-        from The University of Medicine and Pharmacy.
+        I am a passionate 25 year old, self-taught programmer, constantly
+        looking for ways to better myself and my craft.
+        <br />
+        I started this journey after taking a gap year in my 5th year at the
+        University of Medicine, Science and Technology, "George Emil Palade",
+        Targu Mures. In the span of 6 months I studied intensively and succeded
+        in getting a job as a front-end developer. From then until now I have
+        been hard at work, learning and gaining experience, not only from my
+        job, but also by continuing to learn from online resources.
+        <br />
+        I take pride in my work ethic, attention to detail and dedication. I
+        enjoy working in a team and finding the best solutions together, through
+        communication and collaboration.
       </p>
       <ul>
         <li><router-link class="orange" to="/resume">Resume</router-link></li>
@@ -25,7 +35,7 @@
   grid-template-columns: repeat(2, 1fr);
   max-width: 1100px;
   height: 61vh;
-  margin: 10rem auto;
+  margin: 5rem auto 16rem;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -33,7 +43,9 @@
 
 img {
   width: 500px;
-  border-radius: 50%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .description {
